@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="gallery-container">
+            <div class="gallery-section">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <img src="istockphoto-517188688-612x612.jpg" alt="Image 1">
+                    <img src="istockphoto-1317323736-612x612.jpg" alt="Image 2">
+                    <img src="blue-bird-3d-illustration.jpg" alt="Image 3">
+                </div>
+
+                <div id="nav">
+                    <button id="upperBtn">Вище</button>
+                    <button id="lowerBtn">Нижче</button>
+                </div>
+            </div>
+            <div class="controls">
+                <h3>Параметри зображення</h3>
+
+                <label>
+                    Ширина:
+                    <input type="number" id="width" min="1">
+                </label>
+
+                <label>
+                    Висота:
+                    <input type="number" id="height" min="1">
+                </label>
+
+                <label>
+                    Товщина рамки:
+                    <input type="number" id="border" min="0">
+                </label>
+
+                <label>
+                    Альтернативний текст:
+                    <input type="text" id="altern">
+                </label>
+                <button id="accept">Apply</button>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
