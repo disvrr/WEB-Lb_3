@@ -31,7 +31,7 @@
   }
 
   .gallery img.selected {
-      border: 2px solid rgb(132, 255, 0);
+      border: 2px solid rgb(241, 14, 127);
   }
 
   .controls {
